@@ -1,13 +1,7 @@
-# Errata for *Book Title*
+# Errata for *MATLAB Machine Learning Recipes*
 
-On **page xx** [Summary of error]:
+In Chapter 3 [Corrected syntax]:
  
-Details of error here. Highlight key pieces in **bold**.
-
-***
-
-On **page xx** [Summary of error]:
- 
-Details of error here. Highlight key pieces in **bold**.
+Both source code and text in the book keeps using a function "NewFigure('SomeName')", which does not exist in the MATLAB language. The correct syntax would be "figure('Name','SomeName').
 
 ***
